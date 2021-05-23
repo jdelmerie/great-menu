@@ -1,0 +1,178 @@
+* {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	color: #00509d;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.layout-back,
+.layout-front {
+	background-color: #e9ecef;
+}
+
+.btn-color,
+.btn-retour {
+	background-color: #00509d;
+	color: #fff;
+}
+
+.btn-color:hover,
+.btn-retour:hover {
+	background-color: #fff;
+	color: #00509d;
+	border: 1px solid #00509d;
+}
+
+.btn-vert{
+	background-color: #028800;
+	color: #fff;
+}
+
+.btn-vert:hover{
+	background-color: #ffffff;
+	color: #028800;
+	border: 1px solid #028800;
+}
+
+
+/* h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+	font-family: 'Josefin Sans', sans-serif;
+} */
+
+/** LAYOUT BACK **/
+.sidebar {
+	min-height: calc(100vh);
+	background-color: #000000;
+}
+
+.header-content {
+	min-height: 100px;
+}
+
+.title-view {
+	font-size: 30px;
+}
+.content {
+	padding: 30px 30px;
+}
+
+.main-menu>a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.main-menu a:hover {
+	color: #ffffff;
+	background-color:#00509d;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+.menu-active {
+	background-color:#00509d;
+	border-radius: 25px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.input_required {
+	color: #ff0000;
+}
+
+.border-icon {
+	border:1px solid #8f8f8f;
+}
+
+.border-select {
+	border: 2px solid #ff0000;
+}
+
+.img:hover{
+	cursor: pointer;
+}
+
+
+/** PAGE 404 **/
+.body404 {
+	background-color: #e9ecef;
+}
+
+.mainbox {
+	background-color: #e9ecef;
+	margin: auto;
+	height: 600px;
+	width: 600px;
+	position: relative;
+}
+
+.err {
+	color: #00509d;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 11rem;
+	position: absolute;
+	left: 20%;
+	top: 8%;
+}
+
+.errfar {
+	position: absolute;
+	font-size: 8.5rem;
+	left: 42%;
+	top: 18%;
+	color: #00509d;
+}
+
+.err2 {
+	color: #00509d;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 11rem;
+	position: absolute;
+	left: 70%;
+	top: 8%;
+}
+
+.msg {
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1.6rem;
+	position: absolute;
+	left: 16%;
+	top: 45%;
+	width: 75%;
+}
+
+.errlink {
+	text-decoration: none;
+	color: #00509d;
+	font-size: 1.2rem;
+}
+
+.errlink:hover {
+	text-decoration: underline;
+}
